@@ -1,0 +1,36 @@
+.principal {
+    width:100%;
+    height: 1000px;
+    text-align: center;
+    display: flex;
+    background-color: #e9967a;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    height:700px;
+    /* width:400px; */
+    min-width: 250px;
+    background-color: #fffcd4;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+}
+
+img{
+    object-fit: contain;     
+}
+
+.titulo{
+    font-size: 30px;
+}
+
+.descricao{
+    font-size: 24px;
+    text-align: left;
+    padding: 10px;
+}
